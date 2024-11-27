@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	font-family: sans-serif;
+}
+/*HEADER*/
+.cabeca{
+	background-color: orange;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	height: 50px;
+	width:100%;
+	margin: 0px;
+	padding-top: 30px;
+	border-bottom: 2px solid black;
+}
+.cabeca h1#titulo{
+    color:white;
+    top:2px;
+}
+.cabeca li a {
+	text-decoration: none;
+	color: white;
+	height: 100px;
+    font-weight: 25px;
+}
+li a:hover{
+	color: white;
+	text-decoration: underline;
+	font-size: 1em;
+}
+
+
+/*BUTAO DE ADICIONAR*/
+#corpbtn{
+	margin-top: 2px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+#btnadd{
+ border:none;
+ outline: none;
+ padding: 9px 25px;
+ background:orange;
+ border-radius: 4px;
+ font-weight: 600;
+ width: 100px;
+ text-decoration:none;
+ font-size: 1em;
+ margin-left: 10px;
+ color:white;
+}

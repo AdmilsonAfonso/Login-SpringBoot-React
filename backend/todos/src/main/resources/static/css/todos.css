@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	font-family: sans-serif;
+}
+/*HEADER*/
+.cabeca{
+	background-color: orange;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	height: 50px;
+	width:100%;
+	margin: 0px;
+	padding-top: 30px;
+	border-bottom: 2px solid black;
+}
+.cabeca h1#titulo{
+    color:white;
+    top:2px;
+}
+.cabeca li a {
+	text-decoration: none;
+	color: white;
+	height: 100px;
+    font-weight: 25px;
+}
+li a:hover{
+	color: white;
+	text-decoration: underline;
+	font-size: 1em;
+}
+/*BUTAO DE ADICIONAR*/
+#corpbtn{
+	margin-top: 2px;
+	margin-bottom: 15px;
+}
+#btnadd{
+ border:none;
+ outline: none;
+ padding: 9px 25px;
+ background:orange;
+ border-radius: 4px;
+ font-weight: 600;
+ width: 100px;
+ text-decoration:none;
+ font-size: 1em;
+ margin-left: 10px;
+ color:white;
+}
+
+/*TABELA CONFIGURAÇÃO*/
+table#tabelacliente{
+	border: 1px solid  orange;
+	border-spacing:0px;
+	margin-left: auto;
+	margin-right: auto;
+ 
+ }
+ table#tabelacliente th{
+	border: 1px solid orange;
+	padding: 15px;
+	text-align: center;
+	vertical-align: middle;
+  }
+  
+  table#tabelacliente th.titulo{
+	  color: white;
+	  background-color: orange;
+	  vertical-align: top;
+	  font-weight: 25px;
+  }
+  
+  table#tabelacliente td.corptabela{
+       text-align: center;
+       font-weight: 600;
+  }
+  table#tabelacliente td a#update{
+	border:none;
+	outline: none;
+	padding: 2px 25px;
+	background:green;
+	border-radius: 4px;
+	font-weight: 600;
+	width: 100px;
+	text-decoration:none;
+	font-size: 1em;
+	margin: auto;
+	color:black;
+  }
+  table#tabelacliente td a#delete{
+	border:none;
+	outline: none;
+	padding: 2px;
+	background:red;
+	border-radius: 4px;
+	font-weight: 600;
+	width: 50px;
+	text-decoration:none;
+	font-size: 1em;
+	margin: auto;
+	color:black;
+  }
+
+  

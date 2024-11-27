@@ -1,0 +1,148 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+.header, .footer {
+	background-color: orange;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	height: 50px;
+	width: 100%;
+}
+.header{
+display: flex;
+}
+.header h1{
+   margin-top: 10px;
+   margin-left: 350px;
+}
+ 
+ .header span{
+   margin-top: 3px;
+   margin-left: 80px;
+}
+
+.menu {
+	background-color: #ffcc80;
+	padding: 2px;
+	height: 100vh;
+	width: 160px;
+	box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.menu a {
+	display: block;
+	margin: 10px 0;
+	width: 160px;
+	color: white;
+	text-decoration: none;
+	padding: 4px;
+	background-color: #ffa500;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	transition: all 0.3s ease;
+	box-shadow: 0px 4px #666;
+	margin-left: 15px;
+}
+.menu a:active {
+	box-shadow: 0 2px #666;
+	transform: translateY(10px);
+}
+.menu h3{
+	margin-left: 75px;
+	color: black;
+}
+.main {
+	display: flex;
+	margin-left: 480px;
+	position: absolute;
+	padding: 20px;
+}
+.sidebar {
+	position: fixed;
+	width: 200px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+.footer {
+	position: fixed;
+	bottom: 10px;
+	width: 200px;
+}
+.form-venda {
+	width: 300px;
+	padding: 20px;
+	background-color: #f0f0f0;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.form-venda #btn{
+	margin: 2px;
+	width:100px;
+    cursor:pointer;
+}
+
+
+/*TABELA CONFIGURAÇÃO*/
+table#tabelacliente{
+border: 1px solid  orange;
+border-spacing:0px;
+margin-left: 210px;
+margin-right: auto;
+margin-top: 19px;
+position: absolute;
+
+}
+table#tabelacliente th{
+border: 1px solid orange;
+padding: 15px;
+text-align: center;
+vertical-align: middle;
+}
+
+table#tabelacliente th.titulo{
+color: white;
+background-color: orange;
+vertical-align: top;
+font-weight: 25px;
+}
+
+table#tabelacliente td.corptabela{
+text-align: center;
+font-weight: 600;
+}
+table#tabelacliente td a#update{
+border:none;
+outline: none;
+padding: 2px 25px;
+background:green;
+border-radius: 4px;
+font-weight: 600;
+width: 100px;
+text-decoration:none;
+font-size: 1em;
+margin: auto;
+color:black;
+}
+table#tabelacliente td a#delete{
+border:none;
+outline: none;
+padding: 2px;
+background:red;
+border-radius: 4px;
+font-weight: 600;
+width: 50px;
+text-decoration:none;
+font-size: 1em;
+margin: auto;
+color:black;
+}
+
+/*venda*/
+#venda{
+margin-left: 870px;
+margin-top: 19px;
+}
